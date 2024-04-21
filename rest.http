@@ -1,0 +1,41 @@
+
+
+###post data from server
+POST http://localhost:8000/api/v1/tasks
+#header of the request
+Content-Type: application/json
+
+#Body of the request
+{
+    "task":"cleaning",
+    "hr":14,
+    "type":"entry"
+}
+
+
+### get data from database
+GET http://localhost:8000/api/v1/tasks
+
+
+### delete data from database
+DELETE http://localhost:8000/api/v1/tasks
+#header of request
+Content-Type: application/json
+
+#Body of request
+{
+    "_id":"661f6d60f3e8c556a4eadf3c"
+}
+
+
+
+###update data in the server
+PATCH http://localhost:8000/api/v1/tasks
+#header of request
+Content-Type: application/json
+
+#Body of request
+{
+    "id":"6620948b1d54fa839eb54833",
+    "type":"bad"
+}
