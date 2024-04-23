@@ -1,4 +1,5 @@
 import express from 'express'
+import 'dotenv/config'
 import taskRouter from './src/router/taskRouter.js'
 const app = express()
 import cors from 'cors'

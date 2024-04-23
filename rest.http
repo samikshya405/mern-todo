@@ -24,7 +24,7 @@ Content-Type: application/json
 
 #Body of request
 {
-    "_id":"661f6d60f3e8c556a4eadf3c"
+    "_id":"662522f22b6e7853cd74a631"
 }
 
 
@@ -36,6 +36,6 @@ Content-Type: application/json
 
 #Body of request
 {
-    "id":"6620948b1d54fa839eb54833",
+    "id":"662522f22b6e7853cd74a631",
     "type":"bad"
 }
